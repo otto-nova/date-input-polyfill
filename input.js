@@ -65,6 +65,7 @@ export default class Input {
 
       switch(e.keyCode) {
         case 9:
+        case 13:
         case 27:
           thePicker.hide();
           break;

@@ -1,26 +1,14 @@
 {
   "name": "date-input-polyfill",
-  "version": "2.11.0",
+  "version": "2.11.1",
   "description": "Automatically adds datepickers to input[type=date] on IE, Firefox, and OS X Safari.",
   "main": "date-input-polyfill.dist.js",
-  "contributors": [
-    {
-      "name": "Brian Blakely",
-      "email": "anewpage.media@gmail.com"
-    },
-    {
-      "name": "Jonathan Gertig",
-      "email": "jcgertig@gmail.com"
-    },
-    {
-      "name": "Pierre Klink"
-    }
-  ],
+  "files": ["date-input-polyfill.dist.js"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jcgertig/date-input-polyfill.git"
+    "url": "https://github.com/otto-nova/date-input-polyfill"
   },
-  "bugs": "https://github.com/jcgertig/date-input-polyfill/issues",
+  "bugs": "https://github.com/otto-nova/date-input-polyfill/issues",
   "keywords": [
     "html5",
     "light",
@@ -31,7 +19,6 @@
     "datepicker",
     "polyfill"
   ],
-  "analyze": true,
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.9.0",
